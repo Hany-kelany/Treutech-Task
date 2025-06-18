@@ -1,0 +1,94 @@
+﻿@* @model Task_TrueTech.Models.Stock *@
+
+@* <h1>Stock Details</h1> *@
+
+@* <p><strong>Name:</strong> @Model.StockName</p> *@
+@* <p><strong>City:</strong> @Model.City</p> *@
+
+@* <h2>Items in Stock</h2> *@
+@* <a asp-action="AddItem" asp-route-stockId="@Model.StockId" class="btn btn-primary">Add Item</a> *@
+
+@* @if (Model.StockItems.Any()) *@
+@* { *@
+@*     <table class="table"> *@
+@*         <thead> *@
+@*             <tr> *@
+@*                 <th>Item Name</th> *@
+@*                 <th>Quantity</th> *@
+@*             </tr> *@
+@*         </thead> *@
+@*         <tbody> *@
+@*             @foreach (var item in Model.StockItems) *@
+@*             { *@
+@*                 <tr> *@
+@*                     <td>@item.item.ItemName</td> *@
+@*                     <td>@item.Quantity</td> *@
+@*                 </tr> *@
+@*             } *@
+@*         </tbody> *@
+@*     </table> *@
+@* } *@
+@* else *@
+@* { *@
+@*     <p>No items found in this stock.</p> *@
+@* } *@
+@* <a asp-action="Index" class="btn btn-secondary">Back to List</a> *@
+
+@model Task_TrueTech.Models.Stock
+
+<div class="container py-4">
+    <!-- Stock Details Header -->
+    <div class="row mb-4">
+        <div class="col">
+            <h1 class="text-primary">Stock Details</h1>
+            <hr />
+            <p><strong>Name:</strong> @Model.StockName</p>
+            <p><strong>City:</strong> @Model.City</p>
+            <div class="d-flex gap-2">
+             
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- Items in Stock -->
+    <div class="row">
+        <div class="col">
+            <h2 class="text-secondary">Items in @Model.City Stock</h2>
+            <hr />
+            @if (Model.StockItems.Any())
+            {
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>Item Name</th>
+                                <th>Quantity</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model.StockItems)
+                            {
+                                <tr>
+                                    <td>@item.item.ItemName</td>
+                                    <td>@item.Quantity</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            }
+            else
+            {
+                <div class="alert alert-warning" role="alert">
+                    <strong>No items found in this stock.</strong> Please add items to this stock using the button above.
+                </div>
+            }
+        </div>
+    </div>
+</div>
+<a asp-action="Index" class="btn btn-secondary">
+    <i class="bi bi-arrow-left-circle"></i> Back to List
+</a>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />

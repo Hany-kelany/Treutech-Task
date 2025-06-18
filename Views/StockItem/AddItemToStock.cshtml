@@ -1,0 +1,43 @@
+﻿@using Task_TrueTech.ViewModel
+@model AddingItemstoStockVM
+
+<h1>Add Item to Stock</h1>
+
+<!-- City Selection -->
+<form asp-action="AddItemToStock" method="get">
+    <div class="form-group">
+        <label for="City">Select City</label>
+       
+        <select name="city" id="City" class="form-control" onchange="this.form.submit()">
+    <option value="">-- Select City --</option>
+    @foreach (var city in ViewBag.Cities)
+    {
+        <option value="@city" @@(city == Model.SelectedCity ? "selected=\"selected\"" : "")>@city</option>
+    }
+</select>
+
+    </div>
+</form>
+
+<!-- Add Item to Stock -->
+<form asp-action="AddItemToStock" method="post">
+    <div class="form-group">
+        <label for="ItemId">Select Product</label>
+        <select asp-for="itemId" asp-items="@(new SelectList(ViewBag.Items, "ItemId", "ItemName"))" class="form-control"></select>
+        <span asp-validation-for="itemId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="StockId">Select Stock</label>
+        <select asp-for="stockid" asp-items="@(new SelectList(ViewBag.Stocks, "StockId", "StockName"))" class="form-control"></select>
+        <span asp-validation-for="stockid" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="quantity">Enter Quantity</label>
+        <input asp-for="quantity" class="form-control" />
+        <span asp-validation-for="quantity" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Add to Stock</button>
+</form>

@@ -1,0 +1,460 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.net projects\\Task_TrueTech\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C96D3A85-C2DC-4546-A321-AAE4AF1D7C04}|Task_TrueTech.csproj|d:\\.net projects\\task_truetech\\views\\item\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C96D3A85-C2DC-4546-A321-AAE4AF1D7C04}|Task_TrueTech.csproj|solutionrelative:views\\item\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96D3A85-C2DC-4546-A321-AAE4AF1D7C04}|Task_TrueTech.csproj|d:\\.net projects\\task_truetech\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96D3A85-C2DC-4546-A321-AAE4AF1D7C04}|Task_TrueTech.csproj|solutionrelative:controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96D3A85-C2DC-4546-A321-AAE4AF1D7C04}|Task_TrueTech.csproj|d:\\.net projects\\task_truetech\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96D3A85-C2DC-4546-A321-AAE4AF1D7C04}|Task_TrueTech.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96D3A85-C2DC-4546-A321-AAE4AF1D7C04}|Task_TrueTech.csproj|d:\\.net projects\\task_truetech\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96D3A85-C2DC-4546-A321-AAE4AF1D7C04}|Task_TrueTech.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96D3A85-C2DC-4546-A321-AAE4AF1D7C04}|Task_TrueTech.csproj|d:\\.net projects\\task_truetech\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96D3A85-C2DC-4546-A321-AAE4AF1D7C04}|Task_TrueTech.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96D3A85-C2DC-4546-A321-AAE4AF1D7C04}|Task_TrueTech.csproj|d:\\.net projects\\task_truetech\\views\\item\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C96D3A85-C2DC-4546-A321-AAE4AF1D7C04}|Task_TrueTech.csproj|solutionrelative:views\\item\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96D3A85-C2DC-4546-A321-AAE4AF1D7C04}|Task_TrueTech.csproj|d:\\.net projects\\task_truetech\\views\\stock\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C96D3A85-C2DC-4546-A321-AAE4AF1D7C04}|Task_TrueTech.csproj|solutionrelative:views\\stock\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96D3A85-C2DC-4546-A321-AAE4AF1D7C04}|Task_TrueTech.csproj|d:\\.net projects\\task_truetech\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C96D3A85-C2DC-4546-A321-AAE4AF1D7C04}|Task_TrueTech.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96D3A85-C2DC-4546-A321-AAE4AF1D7C04}|Task_TrueTech.csproj|d:\\.net projects\\task_truetech\\controllers\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96D3A85-C2DC-4546-A321-AAE4AF1D7C04}|Task_TrueTech.csproj|solutionrelative:controllers\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96D3A85-C2DC-4546-A321-AAE4AF1D7C04}|Task_TrueTech.csproj|d:\\.net projects\\task_truetech\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96D3A85-C2DC-4546-A321-AAE4AF1D7C04}|Task_TrueTech.csproj|solutionrelative:globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96D3A85-C2DC-4546-A321-AAE4AF1D7C04}|Task_TrueTech.csproj|d:\\.net projects\\task_truetech\\models\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96D3A85-C2DC-4546-A321-AAE4AF1D7C04}|Task_TrueTech.csproj|solutionrelative:models\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96D3A85-C2DC-4546-A321-AAE4AF1D7C04}|Task_TrueTech.csproj|d:\\.net projects\\task_truetech\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96D3A85-C2DC-4546-A321-AAE4AF1D7C04}|Task_TrueTech.csproj|solutionrelative:models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96D3A85-C2DC-4546-A321-AAE4AF1D7C04}|Task_TrueTech.csproj|d:\\.net projects\\task_truetech\\models\\stockitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96D3A85-C2DC-4546-A321-AAE4AF1D7C04}|Task_TrueTech.csproj|solutionrelative:models\\stockitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96D3A85-C2DC-4546-A321-AAE4AF1D7C04}|Task_TrueTech.csproj|d:\\.net projects\\task_truetech\\views\\stock\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C96D3A85-C2DC-4546-A321-AAE4AF1D7C04}|Task_TrueTech.csproj|solutionrelative:views\\stock\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96D3A85-C2DC-4546-A321-AAE4AF1D7C04}|Task_TrueTech.csproj|d:\\.net projects\\task_truetech\\views\\home\\buynow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C96D3A85-C2DC-4546-A321-AAE4AF1D7C04}|Task_TrueTech.csproj|solutionrelative:views\\home\\buynow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96D3A85-C2DC-4546-A321-AAE4AF1D7C04}|Task_TrueTech.csproj|d:\\.net projects\\task_truetech\\viewmodel\\buyvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96D3A85-C2DC-4546-A321-AAE4AF1D7C04}|Task_TrueTech.csproj|solutionrelative:viewmodel\\buyvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96D3A85-C2DC-4546-A321-AAE4AF1D7C04}|Task_TrueTech.csproj|d:\\.net projects\\task_truetech\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C96D3A85-C2DC-4546-A321-AAE4AF1D7C04}|Task_TrueTech.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96D3A85-C2DC-4546-A321-AAE4AF1D7C04}|Task_TrueTech.csproj|d:\\.net projects\\task_truetech\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C96D3A85-C2DC-4546-A321-AAE4AF1D7C04}|Task_TrueTech.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96D3A85-C2DC-4546-A321-AAE4AF1D7C04}|Task_TrueTech.csproj|d:\\.net projects\\task_truetech\\views\\stock\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C96D3A85-C2DC-4546-A321-AAE4AF1D7C04}|Task_TrueTech.csproj|solutionrelative:views\\stock\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96D3A85-C2DC-4546-A321-AAE4AF1D7C04}|Task_TrueTech.csproj|d:\\.net projects\\task_truetech\\controllers\\stockitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96D3A85-C2DC-4546-A321-AAE4AF1D7C04}|Task_TrueTech.csproj|solutionrelative:controllers\\stockitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96D3A85-C2DC-4546-A321-AAE4AF1D7C04}|Task_TrueTech.csproj|d:\\.net projects\\task_truetech\\views\\stockitem\\additemtostock.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C96D3A85-C2DC-4546-A321-AAE4AF1D7C04}|Task_TrueTech.csproj|solutionrelative:views\\stockitem\\additemtostock.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96D3A85-C2DC-4546-A321-AAE4AF1D7C04}|Task_TrueTech.csproj|d:\\.net projects\\task_truetech\\views\\stockitem\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C96D3A85-C2DC-4546-A321-AAE4AF1D7C04}|Task_TrueTech.csproj|solutionrelative:views\\stockitem\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96D3A85-C2DC-4546-A321-AAE4AF1D7C04}|Task_TrueTech.csproj|d:\\.net projects\\task_truetech\\viewmodel\\addingitemstostockvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96D3A85-C2DC-4546-A321-AAE4AF1D7C04}|Task_TrueTech.csproj|solutionrelative:viewmodel\\addingitemstostockvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96D3A85-C2DC-4546-A321-AAE4AF1D7C04}|Task_TrueTech.csproj|d:\\.net projects\\task_truetech\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C96D3A85-C2DC-4546-A321-AAE4AF1D7C04}|Task_TrueTech.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96D3A85-C2DC-4546-A321-AAE4AF1D7C04}|Task_TrueTech.csproj|d:\\.net projects\\task_truetech\\task_truetech.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C96D3A85-C2DC-4546-A321-AAE4AF1D7C04}|Task_TrueTech.csproj|solutionrelative:task_truetech.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96D3A85-C2DC-4546-A321-AAE4AF1D7C04}|Task_TrueTech.csproj|d:\\.net projects\\task_truetech\\migrations\\20250616055425_adding2table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96D3A85-C2DC-4546-A321-AAE4AF1D7C04}|Task_TrueTech.csproj|solutionrelative:migrations\\20250616055425_adding2table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BuyNow.cshtml",
+              "DocumentMoniker": "D:\\.net projects\\Task_TrueTech\\Views\\Home\\BuyNow.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\BuyNow.cshtml",
+              "ToolTip": "D:\\.net projects\\Task_TrueTech\\Views\\Home\\BuyNow.cshtml",
+              "RelativeToolTip": "Views\\Home\\BuyNow.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T06:48:08.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\.net projects\\Task_TrueTech\\Views\\Item\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Item\\Index.cshtml",
+              "ToolTip": "D:\\.net projects\\Task_TrueTech\\Views\\Item\\Index.cshtml",
+              "RelativeToolTip": "Views\\Item\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAD8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T00:54:25.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\.net projects\\Task_TrueTech\\Views\\Stock\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Stock\\Index.cshtml",
+              "ToolTip": "D:\\.net projects\\Task_TrueTech\\Views\\Stock\\Index.cshtml",
+              "RelativeToolTip": "Views\\Stock\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T05:50:13.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\.net projects\\Task_TrueTech\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\.net projects\\Task_TrueTech\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwA4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T06:36:28.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\.net projects\\Task_TrueTech\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\.net projects\\Task_TrueTech\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T06:38:30.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\.net projects\\Task_TrueTech\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\.net projects\\Task_TrueTech\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAAAcAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T04:36:33.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\.net projects\\Task_TrueTech\\Views\\Item\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Item\\Create.cshtml",
+              "ToolTip": "D:\\.net projects\\Task_TrueTech\\Views\\Item\\Create.cshtml",
+              "RelativeToolTip": "Views\\Item\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T20:58:28.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ItemController.cs",
+              "DocumentMoniker": "D:\\.net projects\\Task_TrueTech\\Controllers\\ItemController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ItemController.cs",
+              "ToolTip": "D:\\.net projects\\Task_TrueTech\\Controllers\\ItemController.cs",
+              "RelativeToolTip": "Controllers\\ItemController.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAYwGMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T00:36:29.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\.net projects\\Task_TrueTech\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\.net projects\\Task_TrueTech\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwAcAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T04:30:45.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StockController.cs",
+              "DocumentMoniker": "D:\\.net projects\\Task_TrueTech\\Controllers\\StockController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StockController.cs",
+              "ToolTip": "D:\\.net projects\\Task_TrueTech\\Controllers\\StockController.cs",
+              "RelativeToolTip": "Controllers\\StockController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAIAwwDIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T05:36:26.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Stock.cs",
+              "DocumentMoniker": "D:\\.net projects\\Task_TrueTech\\Models\\Stock.cs",
+              "RelativeDocumentMoniker": "Models\\Stock.cs",
+              "ToolTip": "D:\\.net projects\\Task_TrueTech\\Models\\Stock.cs",
+              "RelativeToolTip": "Models\\Stock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T04:17:52.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GlobalUsings.cs",
+              "DocumentMoniker": "D:\\.net projects\\Task_TrueTech\\GlobalUsings.cs",
+              "RelativeDocumentMoniker": "GlobalUsings.cs",
+              "ToolTip": "D:\\.net projects\\Task_TrueTech\\GlobalUsings.cs",
+              "RelativeToolTip": "GlobalUsings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T19:41:42.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Item.cs",
+              "DocumentMoniker": "D:\\.net projects\\Task_TrueTech\\Models\\Item.cs",
+              "RelativeDocumentMoniker": "Models\\Item.cs",
+              "ToolTip": "D:\\.net projects\\Task_TrueTech\\Models\\Item.cs",
+              "RelativeToolTip": "Models\\Item.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T19:59:38.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "StockItem.cs",
+              "DocumentMoniker": "D:\\.net projects\\Task_TrueTech\\Models\\StockItem.cs",
+              "RelativeDocumentMoniker": "Models\\StockItem.cs",
+              "ToolTip": "D:\\.net projects\\Task_TrueTech\\Models\\StockItem.cs",
+              "RelativeToolTip": "Models\\StockItem.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T20:00:07.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\.net projects\\Task_TrueTech\\Views\\Stock\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Stock\\Details.cshtml",
+              "ToolTip": "D:\\.net projects\\Task_TrueTech\\Views\\Stock\\Details.cshtml",
+              "RelativeToolTip": "Views\\Stock\\Details.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAYwDwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T06:11:14.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\.net projects\\Task_TrueTech\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\.net projects\\Task_TrueTech\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T22:54:18.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BuyVM.cs",
+              "DocumentMoniker": "D:\\.net projects\\Task_TrueTech\\ViewModel\\BuyVM.cs",
+              "RelativeDocumentMoniker": "ViewModel\\BuyVM.cs",
+              "ToolTip": "D:\\.net projects\\Task_TrueTech\\ViewModel\\BuyVM.cs",
+              "RelativeToolTip": "ViewModel\\BuyVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T12:02:05.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\.net projects\\Task_TrueTech\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\.net projects\\Task_TrueTech\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T23:07:03.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "StockItemController.cs",
+              "DocumentMoniker": "D:\\.net projects\\Task_TrueTech\\Controllers\\StockItemController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StockItemController.cs",
+              "ToolTip": "D:\\.net projects\\Task_TrueTech\\Controllers\\StockItemController.cs",
+              "RelativeToolTip": "Controllers\\StockItemController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAwBQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T20:53:27.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\.net projects\\Task_TrueTech\\Views\\Stock\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Stock\\Create.cshtml",
+              "ToolTip": "D:\\.net projects\\Task_TrueTech\\Views\\Stock\\Create.cshtml",
+              "RelativeToolTip": "Views\\Stock\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T22:56:10.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AddingItemstoStockVM.cs",
+              "DocumentMoniker": "D:\\.net projects\\Task_TrueTech\\ViewModel\\AddingItemstoStockVM.cs",
+              "RelativeDocumentMoniker": "ViewModel\\AddingItemstoStockVM.cs",
+              "ToolTip": "D:\\.net projects\\Task_TrueTech\\ViewModel\\AddingItemstoStockVM.cs",
+              "RelativeToolTip": "ViewModel\\AddingItemstoStockVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T20:25:59.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AddItemToStock.cshtml",
+              "DocumentMoniker": "D:\\.net projects\\Task_TrueTech\\Views\\StockItem\\AddItemToStock.cshtml",
+              "RelativeDocumentMoniker": "Views\\StockItem\\AddItemToStock.cshtml",
+              "ToolTip": "D:\\.net projects\\Task_TrueTech\\Views\\StockItem\\AddItemToStock.cshtml",
+              "RelativeToolTip": "Views\\StockItem\\AddItemToStock.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T21:02:05.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\.net projects\\Task_TrueTech\\Views\\StockItem\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\StockItem\\Index.cshtml",
+              "ToolTip": "D:\\.net projects\\Task_TrueTech\\Views\\StockItem\\Index.cshtml",
+              "RelativeToolTip": "Views\\StockItem\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T22:36:50.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\.net projects\\Task_TrueTech\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\.net projects\\Task_TrueTech\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-16T04:49:28.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20250616055425_adding2table.cs",
+              "DocumentMoniker": "D:\\.net projects\\Task_TrueTech\\Migrations\\20250616055425_adding2table.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250616055425_adding2table.cs",
+              "ToolTip": "D:\\.net projects\\Task_TrueTech\\Migrations\\20250616055425_adding2table.cs",
+              "RelativeToolTip": "Migrations\\20250616055425_adding2table.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T05:54:26.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Task_TrueTech.csproj",
+              "DocumentMoniker": "D:\\.net projects\\Task_TrueTech\\Task_TrueTech.csproj",
+              "RelativeDocumentMoniker": "Task_TrueTech.csproj",
+              "ToolTip": "D:\\.net projects\\Task_TrueTech\\Task_TrueTech.csproj",
+              "RelativeToolTip": "Task_TrueTech.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-16T04:30:53.596Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 429,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

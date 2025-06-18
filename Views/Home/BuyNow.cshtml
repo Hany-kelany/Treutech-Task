@@ -1,0 +1,156 @@
+﻿@* @using Task_TrueTech.ViewModel *@
+@* @model BuyVM *@
+@* @{ *@
+@*     ViewBag.Title = "Payment"; *@
+@*     var cities = ViewBag.Cities as List<string>; *@
+@* } *@
+@* <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet" /> *@
+@* <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> *@
+@* <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script> *@
+
+@* <h4>Shopping Now @ViewBag.name</h4> *@
+@* <h5>price per piece : @ViewBag.price</h5> *@
+
+@* <form asp-action="BuyNow" method="post" asp-controller="Home"> *@
+@*     <input type="hidden" name="ItemId" value="@ViewBag.ItemId" /> *@
+
+@*     <div class="form-group"> *@
+@*         <label for="CustmerName">Client Name:</label> *@
+@*         <input type="text" id="CustmerName" name="CustmerName" value="@Model?.CustmerName" class="form-control" required /> *@
+@*     </div> *@
+
+@*     <div class="form-group"> *@
+@*         <label for="Quantity">Required Quantity:</label> *@
+@*         <input type="number" id="Quantity" name="Quantity" class="form-control" value="@Model?.Quantity" min="1" required /> *@
+@*     </div> *@
+
+@*     <div class="form-group"> *@
+@*         <label for="City">City:</label> *@
+@*         <select id="City" name="City" class="form-control" value="@Model?.City" required> *@
+@*             <option value="@Model?.City">---Choose nearest place to you---</option> *@
+@*             @foreach (var city in cities) *@
+@*             { *@
+@*                 <option value="@city">@city</option> *@
+@*             } *@
+@*         </select> *@
+@*     </div> *@
+@*     <br /> *@
+@*     <button type="submit" class="btn btn-success">Confirm Payment</button> *@
+@* </form> *@
+
+@* @section Scripts { *@
+@*     <script> *@
+@*         $(document).ready(function () { *@
+@*             var successMessage = '@TempData["SuccessMessage"]'; *@
+@*             var errorMessage = '@TempData["ErrorMessage"]'; *@
+
+@*             toastr.options = { *@
+@*                 "positionClass": "toast-top-right", *@
+@*                 "timeOut": "3000", *@
+@*                 "closeButton": true, *@
+@*                 "progressBar": true *@
+@*             }; *@
+
+@*             if (successMessage) { *@
+@*                 toastr.success(successMessage); *@
+@*             } *@
+@*             if (errorMessage) { *@
+@*                 toastr.error(errorMessage); *@
+@*             } *@
+@*         }); *@
+@*     </script> *@
+@* } *@
+
+
+
+
+@using Task_TrueTech.ViewModel
+@model BuyVM
+
+@{
+    ViewBag.Title = "Payment";
+    var cities = ViewBag.Cities as List<string>;
+}
+
+<!-- Toastr CSS and JS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-6">
+            <div class="card shadow-sm">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="mb-0">Complete Your Payment</h4>
+                </div>
+                <div class="card-body">
+                    <h5 class="text-muted">Shopping Now: <span class="text-primary">@ViewBag.name</span></h5>
+                    <h6 class="text-muted">Price per piece: <span class="text-success">@ViewBag.price</span></h6>
+                    <hr />
+
+                    <form asp-action="BuyNow" method="post" asp-controller="Home">
+                        <input type="hidden" id="itemId" name="itemId" value="@ViewBag.ItemId" />
+
+                        <div class="mb-3">
+                            <label for="CustmerName" class="form-label">Client Name:</label>
+                            <input type="text" id="CustmerName" name="CustmerName" 
+                                value="@Model?.CustmerName" 
+                                class="form-control" 
+                                placeholder="Enter your name" 
+                                required />
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="Quantity" class="form-label">Required Quantity:</label>
+                            <input type="number" id="Quantity" name="Quantity" 
+                                class="form-control" 
+                                value="@Model?.Quantity" 
+                                min="1" 
+                                placeholder="Enter quantity" 
+                                required />
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="City" class="form-label">City:</label>
+                            <select id="City" name="City" class="form-select" required>
+                                <option value="">--- Choose nearest place to you ---</option>
+                                @foreach (var city in cities)
+                                {
+                                    <option value="@city" @@(Model?.City == city ? "selected" : "")>@city</option>
+                                }
+                            </select>
+                        </div>
+
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-success">Confirm Payment</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            var successMessage = '@TempData["SuccessMessage"]';
+            var errorMessage = '@TempData["ErrorMessage"]';
+
+            toastr.options = {
+                "positionClass": "toast-top-right",
+                "timeOut": "3000",
+                "closeButton": true,
+                "progressBar": true
+            };
+
+            if (successMessage) {
+                toastr.success(successMessage);
+            }
+            if (errorMessage) {
+                toastr.error(errorMessage);
+            }
+        });
+    </script>
+}

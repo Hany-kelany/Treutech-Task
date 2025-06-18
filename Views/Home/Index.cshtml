@@ -1,0 +1,92 @@
+﻿@using Task_TrueTech.ViewModel
+@model List<ItemVM>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!-- Toastr CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet" />
+
+<div class="container my-4">
+    <h1 class="text-center mb-4">Available Products</h1>
+
+    <div class="row">
+        @foreach (var product in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary" style="text-decoration:underline;text-align:center">@product.ItemName</h5>
+                        <p class="card-text text-muted"><b>Decription:</b> @product.Description</p>
+                        <p class="card-text text-muted"><b>price</b>:@product.price $</p>
+                        <p class="card-text text-muted"> <b>Total Quantity in stocks</b> : @product.TotalQuantity</p>
+
+                        <form asp-action="BuyNow" method="get">
+                            <input type="hidden" name="itemId" value="@product.ItemId" />
+                            <button type="submit" class="btn btn-primary w-100">Buy now</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<!-- jQuery (Toastr يعتمد عليه) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- Toastr JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            var successMessage = '@TempData["SuccessMessage"]';
+            var errorMessage = '@TempData["ErrorMessage"]';
+
+            if (successMessage) {
+                Swal.fire({
+                    icon: 'success',
+                    title: 'Sucess',
+                    text: successMessage,
+                    confirmButtonText: 'ok',
+                    confirmButtonColor: '#3085d6'
+                });
+            }
+            if (errorMessage) {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Error',
+                    text: errorMessage,
+                    confirmButtonText: 'ok',
+                    confirmButtonColor: '#d33'
+                });
+            }
+        });
+    </script>
+
+
+            <script>
+        $(document).ready(function () {
+            toastr.options = {
+                "positionClass": "toast-top-right",
+                "timeOut": "3000",
+                "closeButton": true,
+                "progressBar": true
+            };
+
+            var successMessage = '@TempData["SuccessMessage"]';
+            var errorMessage = '@TempData["ErrorMessage"]';
+
+            if (successMessage) {
+                toastr.success(successMessage);
+            }
+            if (errorMessage) {
+                toastr.error(errorMessage);
+            }
+        });
+    </script>
+
+}
+

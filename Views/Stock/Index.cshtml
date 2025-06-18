@@ -1,0 +1,27 @@
+﻿@model IEnumerable<Task_TrueTech.Models.Stock>
+
+<h1>Stocks</h1>
+
+<a asp-action="Create" class="btn btn-primary">Add New Stock</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Location</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var stock in Model)
+        {
+            <tr>
+                <td>@stock.StockName</td>
+                <td>@stock.City</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@stock.StockId" class="btn btn-info">View Items</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
